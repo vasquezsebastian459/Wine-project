@@ -24,9 +24,9 @@ df.describe()
 print("info")
 df.info()
 
-fig, ax = plt.subplots(ncols = 6, nrows = 2, figsize = (20,10))
+fig, ax = plt.subplots(ncols=6, nrows=2, figsize=(20, 10))
 index = 0
-ax= ax.flatten()
+ax = ax.flatten()
 
 for col, value in df.items():
   if col != "type":
